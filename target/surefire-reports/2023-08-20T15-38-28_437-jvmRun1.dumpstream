@@ -1,0 +1,33 @@
+# Created at 2023-08-20T15:39:59.116
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2023-08-20T15:40:00.805
+Unexpected IOException with stream: 2023-08-20 15:40:00.803  WARN 6575 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'playerController' defined in file [/home/nxtwave/player/target/classes/com/example/player/PlayerController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.player.PlayerController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The type PlayerService must implement the inherited abstract method PlayerRepository.getPlayerbyId(int)
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	Collection cannot be resolved to a type
+	HashMap cannot be resolved to a type
+	The method getPlayerById(int) of type PlayerService must override or implement a supertype method
+	HashMap cannot be resolved to a type
+	HttpStatus cannot be resolved to a variable
+
+
+
